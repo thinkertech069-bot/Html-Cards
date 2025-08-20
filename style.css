@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#card-container .my-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 30px 10px;
+    border: 2px solid greenyellow;
+
+}
+
+.my-card h1 {
+    color: black;
+    text-transform: capitalize;
+}
+
+.my-card button {
+    background-color: goldenrod;
+    padding: 1px 10px;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+
+#bg-color1 {
+    background-color: greenyellow;
+}
+
+#bg-color2 {
+    background-color: greenyellow;
+}
+
+#bg-color3 {
+    background-color: greenyellow;
+}
+
+#bg-color4 {
+    margin-top: 100px;
+    padding: 10px;
+
+}
